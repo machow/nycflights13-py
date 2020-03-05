@@ -19,7 +19,6 @@ setup(
         "pandas>=0.24.0",
     ],
     python_requires=">=3.5",
-    package_data={'nycflights13': ['data/*.csv*']},
     include_package_data=True,
     long_description=README,
     long_description_content_type="text/markdown",
